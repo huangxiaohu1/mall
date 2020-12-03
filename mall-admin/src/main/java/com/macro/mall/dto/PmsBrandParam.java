@@ -30,7 +30,7 @@ public class PmsBrandParam {
     @ApiModelProperty(value = "是否进行显示")
     private Integer showStatus;
     @NotEmpty
-    @ApiModelProperty(value = "品牌logo",required = true)
+    @ApiModelProperty(value = "品牌logo")
     private String logo;
     @ApiModelProperty(value = "品牌大图")
     private String bigPic;
