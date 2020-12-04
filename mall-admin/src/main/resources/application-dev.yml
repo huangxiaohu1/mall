@@ -18,6 +18,10 @@ spring:
     port: 6379 # Redis服务器连接端口
     password: Abc123!_ # Redis服务器连接密码（默认为空）
     timeout: 300ms # 连接超时时间（毫秒）
+  devtools:
+    restart:
+      enabled: true #开启热部署
+
 
 logging:
   level:
